@@ -1,0 +1,15 @@
+// Mixins Here
+
+.btnStyle(@size, @rad) {
+    background-color: @btn-bg-color;
+    color: @wild-sand;
+    .rndCorn(@rad);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: @size;
+    cursor: pointer;
+    &:hover {
+        color: @btn-bg-color;
+        background-color: @wild-sand;
+    }
+  }
